@@ -1,20 +1,4 @@
-This is your group repo for your final project for COGS108.
+# Overview
+Our project aims to shine light on the issues of crime rate in Los Angeles county and explores its relationship with the locations of police stations. By utilizing the data of crime records collected by the LA Police Department from 2010-present combined with current locations of LAPD police stations, we attempted a geographic data analysis and discovered trends in crime types and the locations associated with it. We found that only a small percentage of crime happens near police stations, and that most crimes are out of reach from current stations.
 
-This repository is private, and is only visible to the course instructors and your group mates; it is not visible to anyone else.
-
-Template notebooks for each component are provided. Only work on the notebook prior to its due date. After each submission is due, move onto the next notebook (For example, after the proposal is due, start working in the Data Checkpoint notebook). 
-
-This repository will be frozen on the final project due date. No further changes can be made after that time.
-
-Your project proposal and final project will be graded based solely on the corresponding project notebooks in this repository.
-
-Template Jupyter notebooks have been included, with your group number replacing the XXX in the following file names. For each due date, make sure you have a notebook present in this repository by each due date with the following name (where XXX is replaced by your group number):
-
-- `ProjectProposal_groupXXX.ipynb`
-- `DataCheckpoint_groupXXX.ipynb`
-- `EDACheckpoint_groupXXX.ipynb`
-- `FinalProject_groupXXX.ipynb`
-
-This is *your* repo. You are free to manage the repo as you see fit, edit this README, add data files, add scripts, etc. So long as there are the four files above on due dates with the required information, the rest is up to you all. 
-
-Also, you are free and encouraged to share this project after the course and to add it to your portfolio. Just be sure to fork it to your GitHub at the end of the quarter!
+Furthermore, we performed clustering algorithms using K-Means that propose alternative/new locations for police stations around the county to more effectively distribute station locations, and we found that severe crimes tend to happen less near our new proposed police stations. To conclude, our solutions showed that there are positive impacts that could be made through exploring new police locations and that by doing so we can more evenly spread out crime among police stations and distribute resources of the police department more efficiently.
